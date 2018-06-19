@@ -1,0 +1,13 @@
+[package]
+name = "wasmparse-bridge"
+version = "0.1.0"
+authors = ["Matt Harrison <hi@matt-harrison.com>"]
+
+[dependencies]
+wasmparse-core = { path = "../wasmparse-core" }
+wasm-bindgen = "0.2"
+serde = "1.0.66"
+serde_json = "1.0.20"
+
+[lib]
+crate-type = ["cdylib"]
